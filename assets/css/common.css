@@ -6,8 +6,18 @@ body {
 	color: #ffffff !important;
 }
 
+.custom-text-white {
+	color: #ffffff !important;
+}
+
 .custom-subtitle {
 	font-size: 1.4em;
+}
+
+.custom-subtitle-white {
+	color: #ffffff !important;
+	font-size: 1.2em;
+	/*font-weight: bold;*/
 }
 
 .jumbotron {
