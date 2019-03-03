@@ -1,7 +1,19 @@
+body {
+  font-weight:bold !important;
+}
+
+.card-title {
+	color: #ffffff !important;
+}
+
 .custom-subtitle {
-	font-size: 1.6em;
+	font-size: 1.4em;
 }
 
 .jumbotron {
 	background-color: rgba(80, 30, 88, 0.4) !important;
+}
+
+.author {
+	color: #ffffff !important;
 }
