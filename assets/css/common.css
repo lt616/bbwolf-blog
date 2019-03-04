@@ -2,6 +2,30 @@ body {
   font-weight:bold !important;
 }
 
+.custom-body-content {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 100vh;
+	padding-top: 150px;
+	color: #ffffff;
+}
+
+.custom-content-container {
+	background-color: rgba(80, 30, 88, 0.4);
+	padding: 5px 100px 10px 100px;
+}
+
+.custom-content {
+	font-size: 1.3em;
+	padding-top: 20px;
+	margin: 10px 0px 10px 0px;
+}
+
+.custom-content-title {
+	font-size: 2em;
+}
+
 .card-title {
 	color: #ffffff !important;
 }
