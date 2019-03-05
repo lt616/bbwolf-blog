@@ -63,9 +63,50 @@
   <!-- Content -->
   <div class="custom-body-content" style="background-image: url('./../assets/img/homepage-moutain4.jpg')">
     <div class="offset-md-1 col-md-10 custom-content-container">
-      <h2 class="text-center"> Post Title </h2>
+      <h2 class="text-center"> Editing SVG files </h2>
       <div class="custom-content">
-        article content
+        <p>
+         I want to add a SVG image as logo for my blog website. It's not the first time I use SVG files in my project. But it's the first I tried to edit a SVG image. Edition on SVG is pretty easy! Guess that is one of the reasons why it's so popular!
+        </p>
+        <figure>
+          <img width="100px" height="100px" src="./../assets/img/noun_Wolf_70573.svg" class="img-thumbnail img-responsive"/>
+          <figcaption class="text-success"> The original SVG file, thanks Louie Greco for sharing the icon </figcaption>
+        </figure> 
+        <p>
+          Basically speaking, SVG is a readable image file, which makes itself different to other binary image file types. Open a SVG in an editor, you are able to adjust image's color, size, and even text. 
+        </p>
+        <br>
+        <ul class="custom-ul">
+          <li>
+            Adjust color: color of vectors is specified in [fill] attribute in &lt;path&gt; tag:
+            <br>
+            <code class="text-warning">
+              <center>
+                &lt;path fill="#000000" ..&gt;
+              </center>
+            </code>
+            <br>
+          </li>
+          <li>
+            Add text using &lt;text&gt; tag. You can specify font-color / size / style in attributes. If you want to remove a text, just remove the corresponding &lt;text&gt; tag in SVG file.
+            <code class="text-warning">
+              <center>
+                &lt;text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"&gt; Sample text &lt;/text&gt;
+              </center>
+            </code>
+          </li>
+        </ul>
+        <br>
+        <hr />
+        <h3> References </h3>
+        <ol class="custom-reference-ol">
+          <li>
+            Wolf icon from Louie Greco's Noun Project: https://thenounproject.com/term/wolf/70573/            
+          </li>
+          <li>
+            Using SVG: https://css-tricks.com/using-svg/
+          </li>
+        </ol>
       </div>
     </div>
   </div>

@@ -2,6 +2,24 @@ body {
   font-weight:bold !important;
 }
 
+code {
+	color: #ffffff;
+	text-align: center;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	font-weight: normal;
+}
+
+.post {
+	color: #000000;
+	font-weight: 600;
+}
+
 .custom-body-content {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -12,18 +30,30 @@ body {
 }
 
 .custom-content-container {
-	background-color: rgba(80, 30, 88, 0.4);
+	background-color: rgba(80, 30, 88, 0.5);
 	padding: 5px 100px 10px 100px;
 }
 
 .custom-content {
-	font-size: 1.3em;
 	padding-top: 20px;
 	margin: 10px 0px 10px 0px;
 }
 
+.custom-content p {
+	font-size: 1.3em;
+}
+
 .custom-content-title {
 	font-size: 2em;
+}
+
+.custom-ul {
+	font-weight: normal;
+	font-size: 1.2em;
+}
+
+.custom-reference-ol {
+	font-weight: normal;
 }
 
 .card-title {
